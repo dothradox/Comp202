@@ -5,10 +5,11 @@
 using std :: cout;
 using std :: endl;
 
-int count {0};
+
 
 Stack :: Stack(){
     HEAD = NULL;
+    int count {0};
 }
 
 Stack :: ~Stack(){};
